@@ -20,7 +20,7 @@
 
 要求：使用MLP和CNN模型，对图像进行分类，并尝试使用resnet模型。
 
-输入：32*32*3的图像
+输入：32x32x3的图像
 
 输出：类别概率
 
@@ -50,15 +50,15 @@
 
 [https://raw.githubusercontent.com/SophonPlus/ChineseNlpCorpus/master/datasets/ChnSentiCorp_htl_all/ChnSentiCorp_htl_all.csv](https://raw.githubusercontent.com/SophonPlus/ChineseNlpCorpus/master/datasets/waimai_10k/waimai_10k.csv)
 
-[3]
-
-[https://github.com/Embedding/Chinese-Word-Vectors.git]()
-
 [1][2]为数据集,要求每个数据集都使用最后500条正向和最后500条负向作为测试集，其余作为训练集合验证集。
 
 使用语言和框架：python和pytorch
 
-要求：使用DPCNN模型，pytorch中的embedding层随机初始化，对文本进行分类,或者Glove预训练,中文语义库见[3]。
+要求：使用DPCNN模型，pytorch中的embedding层随机初始化，对文本进行分类,或者Glove预训练,中文语料库见[3]。
+
+[3]
+
+[https://github.com/Embedding/Chinese-Word-Vectors.git]()
 
 输入：搜狗新闻文本
 
